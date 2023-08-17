@@ -1,0 +1,12 @@
+Overview Of Spring JDBC
+
+1) DataSource ds
+	  driverclass
+	  url
+	  user
+	  password
+2) JdbcTemplate template- will require bean of datasource
+	  ds
+
+3) Dao Classes - will require bean of JdbcTemplate
+	  template
